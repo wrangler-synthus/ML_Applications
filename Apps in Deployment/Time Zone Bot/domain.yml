@@ -1,0 +1,43 @@
+intents:
+  - greet
+  - goodbye
+  - find_time_zone
+  - find_time_zone_for_location
+  - city_info
+  - thanks
+
+actions:
+  - action_show_time_zone
+
+entities:
+  - city
+
+slots:
+  city:
+    type: text
+    auto_fill : True
+
+
+responses:
+  utter_greet:
+  - text: "Hey! I am Time Zone Bot"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_ask_location:
+  - text: 'Which city do you need the timw zone of?'
+
+  utter_finding_time_zone:
+  - text: 'Ok, give me a second to look it up the time zone of {city}'
+
+  utter_you_are_welcome:
+  - text: 'You are Welcome!'
+
+
+
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
