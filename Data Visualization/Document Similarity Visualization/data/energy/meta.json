@@ -1,0 +1,16 @@
+{
+    "target_names": {
+        "Y1": "heating load", 
+        "Y2": "cooling load"
+    }, 
+    "feature_names": [
+        "relative compactness", 
+        "surface area", 
+        "wall area", 
+        "roof area", 
+        "overall height", 
+        "orientation", 
+        "glazing area", 
+        "glazing area distribution"
+    ]
+}

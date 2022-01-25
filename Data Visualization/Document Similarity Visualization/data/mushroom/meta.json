@@ -1,0 +1,12 @@
+{
+  "feature_names": [
+      "target",
+      "shape",
+      "surface",
+      "color",
+  ],
+  "target_names": [
+      "edible",
+      "poisonous",
+  ]
+}

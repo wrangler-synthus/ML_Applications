@@ -1,0 +1,13 @@
+{
+  "feature_names": [
+    "cement", 
+    "slag", 
+    "ash", 
+    "water", 
+    "splast", 
+    "coarse", 
+    "fine", 
+    "age", 
+    "strength"
+  ]
+}
