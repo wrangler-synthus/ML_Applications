@@ -1,0 +1,2 @@
+model_checkpoint_path: "ft_efficientnet_model"
+all_model_checkpoint_paths: "ft_efficientnet_model"
